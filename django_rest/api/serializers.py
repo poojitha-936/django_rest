@@ -10,4 +10,9 @@ class StudentSerializer(serializers.ModelSerializer):
 class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
         model=Employee
-        fields = '__all__'        
+        fields = '__all__'   
+
+
+
+
+
