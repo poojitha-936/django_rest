@@ -14,5 +14,3 @@ class EmployeeSerializer(serializers.ModelSerializer):
 
 
 
-
-
