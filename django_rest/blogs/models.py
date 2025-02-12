@@ -8,11 +8,10 @@ class Blog(models.Model):
     def __str__(self):
         return self.blog_title
     
-
-
 class Comment(models.Model):
-       blog=models.ForeignKey(Blog, on_delete=models.CASCADE, related_name='comment')
+       blog=models.ForeignKey(Blog, on_delete=models.CASCADE, related_name='comments')
        content= models.TextField()
 
        def __str__(self):
             return self.content
+# Create your models here.
